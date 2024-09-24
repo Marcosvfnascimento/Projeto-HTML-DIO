@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto DIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="inicio">Aprendendo de TAGs HTML Multimídia</h1>
+    <hr>
+    <audio   controls loop>
+        <source src="audio_fundo.mp4">
+        seu navegador nao suporta esse audio
+    </audio>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#about">SOBRE TAGS MULTIMIDIA</a></li>
+        <li><a href="#img">TAG IMG</a></li>
+        <li><a href="#audio">TAG AUDIO</a></li>
+        <li><a href="#video">TAG VIDEO</a></li>
+        <li><a href="#source">TAG SOURCE</a></li>
+        <li><a href="#track">TAG TRACK</a></li>
+
+        <div class="textAbout">
+            <h2 id="about">SOBRE TAGS MULTIMÍDIA</h2>
+        
+            <P>As tags multimídia em HTML são essenciais para enriquecer a experiência do usuário. A tag <code>&lt;img&gt;</code> insere imagens, enquanto <code>&lt;audio&gt;</code> permite a reprodução de arquivos sonoros e <code>&lt;video&gt;</code> incorpora vídeos, ambos com controles para interação. Para compatibilidade, a tag <code>&lt;source&gt;</code> especifica múltiplas fontes de mídia, e a tag <code>&lt;track&gt;</code> adiciona legendas a vídeos, tornando o conteúdo mais acessível. Juntas, essas tags criam uma web mais interativa e envolvente.</P>
+        <!-- <code>&lt;img&gt;</code> faz com que a tag apareca no texto assim > <img> -->
+        </div>
+   
+     
+        <div class="textAbout">
+            <h2 id="img">TAG <code>&lt;img&gt;</code></h2>
+            <p>A tag <u><i><code>&lt;img&gt;</code></i></u> é utilizada para inserir imagens, tanto através de links de <mark>imagens da internet</mark> quanto de imagens do <mark>seu dispositivo local</mark>. Essas imagens podem possuir atributos como title ou alt, por exemplo. O atributo <i>title</i> pode ser adicionado para fornecer informações adicionais sobre a imagem. Quando o usuário passa o mouse sobre a imagem, um pequeno tooltip aparece com o texto especificado no atributo <i>title</i>. O atributo <i>alt</i> fornece uma descrição textual alternativa para acessibilidade.</mark> </p>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/y9MWuRWZ1uI?si=IWVUfauBpxwbENPD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <a href="#inicio">(voltar ao inicio)</a>
+        </div>
+        <div class="textAbout">
+            <h2 id="audio">TAG <code>&lt;audio&gt;</code></h2>
+            <p>A tag <u><i><code>&lt;audio&gt;</code></i></u> é utilizada para inserir arquivos de áudio em uma página HTML. Com essa tag, você pode tocar músicas, narrações ou efeitos sonoros. A tag pode incluir atributos como <i>controls</i>, que permite ao usuário pausar, reproduzir e ajustar o volume do áudio. Isso torna a experiência do usuário mais interativa e divertida!</p>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/seFNHyf_3ps?si=3EQmMORfLCcaT3D_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <a href="#inicio">(voltar ao inicio)</a>
+        </div>
+        
+        <div class="textAbout">
+            <h2 id="video">TAG <code>&lt;video&gt;</code></h2>
+            <p>A tag <u><i><code>&lt;video&gt;</code></i></u> é usada para inserir vídeos em uma página web. Assim como a tag <i>audio</i>, você pode adicionar atributos como <i>controls</i> para que os usuários possam reproduzir, pausar e ajustar o volume do vídeo. É possível incluir múltiplas fontes de vídeo utilizando a tag <code>&lt;source&gt;</code>, garantindo que o vídeo funcione em diferentes navegadores. Isso ajuda a tornar seu conteúdo mais envolvente e acessível!</p>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/f28Tql1sbXs?si=L36GSsw2yjig7l8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+            <a href="#inicio">(voltar ao inicio)</a>
+        </div>
+        
+        <div class="textAbout">
+            <h2 id="source">TAG <code>&lt;source&gt;</code></h2>
+            <p>A tag <u><i><code>&lt;source&gt;</code></i></u> é utilizada dentro das tags <i>audio</i> e <i>video</i> para especificar diferentes fontes de mídia. Por exemplo, você pode ter a mesma música em vários formatos, como MP3 e OGG, e usar a tag <i>source</i> para que o navegador escolha qual usar. Isso garante que seu conteúdo funcione corretamente em diversos navegadores e dispositivos!</p>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/zcMjUExEKm8?si=ygmPkyfOS69ogNf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <a href="#inicio">(voltar ao inicio)</a>
+        </div>
+        
+        <div class="textAbout">
+            <h2 id="track">TAG <code>&lt;track&gt;</code></h2>
+            <p>A tag <u><i><code>&lt;track&gt;</code></i></u> é usada em conjunto com a tag <i>video</i> para adicionar legendas ou legendas descritivas. Isso é muito importante para a acessibilidade, pois permite que pessoas com deficiência auditiva acompanhem o conteúdo. Você pode especificar o tipo de legenda usando atributos como <i>kind</i>, <i>srclang</i> e <i>label</i>, tornando seu vídeo mais inclusivo e fácil de entender!</p>
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/Lvvxbo0c_6Q?si=UGca0CtAvcjZ8XWX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <small><a href="#inicio">(voltar ao inicio)</a></small>
+        </div>
+        
+    </ul>
+    <footer>
+        <h3>Referências</h3>
+        <p>link para o site de documentação HTML</p>
+    <a href="https://www.w3schools.com/html/html_intro.asp">W3SCHOOLS</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.textAbout{
+    width: 70%;
+}
+body {
+    color: #fff;
+    background-color: black;
+}
+body a {
+    color: #3001ff;
+}
+body a:hover {
+    color: #a200ff;
+}
+footer{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+}
